@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 
 dir = "<your directory>"
 
-df_pandas = pd.read_csv(f"{dir}/train_2.csv")
+df_pandas = pd.read_csv(f"{dir}/<your csv file name>.csv")
 print(len(df_pandas.index))
 
 
